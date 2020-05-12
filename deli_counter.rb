@@ -19,7 +19,7 @@ line = ""
   #katz_deli.map.with_index do |name, index|
    line << ("Welcome, #{name}. You are number #{index + 1} in line.")
     index +=1
-end
+
 puts line
 
 end
