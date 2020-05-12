@@ -20,6 +20,6 @@ line = "Welcome, "
    line<< " #{name}. You are number #{index} in line."
     index +=1
 end
-puts line
+ line
 
 end
