@@ -17,8 +17,8 @@ end
 line = ""
   #counter = 1
   katz_deli.map.with_index do |name, index|
-  puts  line.push("Welcome, #{name}. You are number #{index + 1} in line.")
+   line.push("Welcome, #{name}. You are number #{index + 1} in line.")
     index +=1
 end
-
+puts line
 end
