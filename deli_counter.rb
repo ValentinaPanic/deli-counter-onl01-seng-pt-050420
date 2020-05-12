@@ -16,7 +16,7 @@ end
  def take_a_number ( katz_deli,name)
 line = ""
   index = 1
-  katz_deli.map.with_index do |name, index|
+  katz_deli. each do |name|
    line << "Welcome, #{name}. You are number #{index} in line."
     index +=1
 end
