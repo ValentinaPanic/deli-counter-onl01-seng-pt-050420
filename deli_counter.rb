@@ -14,10 +14,10 @@ end
 end
 
  def take_a_number (katz_deli,name)
-  index = 1
+  #index = 1
   katz_deli.each do |name|
-  puts katz_deli << "Welcome #{name}. You are number #{index} in line."
-    index +=1
+  puts katz_deli << "Welcome #{name}. You are number #{katz_deli.length} in line."
+    #index +=1
 end
 
 end
