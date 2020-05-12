@@ -15,9 +15,9 @@ end
 
  def take_a_number ( katz_deli,name)
 line = ""
-  index = 0
+  index = 1
   #katz_deli.map.with_index do |name, index|
-   line << ("Welcome, #{name}. You are number #{index + 1} in line.")
+   line << ("Welcome, #{name}. You are number #{index} in line.")
     index +=1
 
 puts line
