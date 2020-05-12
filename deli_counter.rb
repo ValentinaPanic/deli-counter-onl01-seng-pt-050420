@@ -14,7 +14,6 @@ end
 end
 
  def take_a_number (katz_deli,name)
-
   index = 1
   katz_deli.each do |name|
    katz_deli << "Welcome #{name}. You are number #{index} in line."
