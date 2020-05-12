@@ -14,8 +14,7 @@ end
 end
 
  def take_a_number ( katz_deli,name)
-   line = ""
   counter = 1
-  puts  line << ("Welcome, #{name}. You are number #{counter} in line.")
+  puts  katz_deli << ("Welcome, #{name}. You are number #{counter} in line.").split
     coutner +=1
 end
