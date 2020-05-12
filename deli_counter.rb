@@ -14,9 +14,10 @@ end
 end
 
  def take_a_number ( katz_deli,name)
-   line = []
-   line.push (katz_deli.map.with_index do |name, index|
-     "Welcome, #{name}. You are number #{index +1} in line.")
+  counter = 1
+    katz_deli.push("Welcome, #{name}. You are number #{coutner} in line.")
+    coutner +=1
 end
-puts line
+puts katz_deli
+
 end
