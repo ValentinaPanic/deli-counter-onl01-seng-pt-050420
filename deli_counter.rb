@@ -18,5 +18,4 @@ end
     katz_deli.push("Welcome, #{name}. You are number #{coutner} in line.")
     coutner +=1
 puts katz_deli
-
 end
