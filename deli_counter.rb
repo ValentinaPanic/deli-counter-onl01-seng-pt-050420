@@ -18,5 +18,5 @@ end
   #katz_deli.each do |name|
   puts katz_deli << "Welcome #{name}. You are number #{katz_deli.length} in line."
     #index +=1
-end
+#end
 end
