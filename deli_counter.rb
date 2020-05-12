@@ -20,5 +20,3 @@ end
     #index +=1
 #end
 end
-
-
