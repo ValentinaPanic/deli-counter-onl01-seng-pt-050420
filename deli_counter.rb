@@ -20,3 +20,4 @@ line = ""
   puts  line << ("Welcome, #{name}. You are number #{index + 1} in line.")
     index +=1
 end
+end
