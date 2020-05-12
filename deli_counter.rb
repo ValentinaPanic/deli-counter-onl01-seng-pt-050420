@@ -19,6 +19,6 @@ end
    katz_deli << "Welcome #{name}. You are number #{index} in line."
     index +=1
 end
-  puts line
+
 
 end
