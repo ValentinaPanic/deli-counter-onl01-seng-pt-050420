@@ -17,7 +17,6 @@ end
   counter = 1
     katz_deli.push("Welcome, #{name}. You are number #{coutner} in line.")
     coutner +=1
-end
 puts katz_deli
 
 end
