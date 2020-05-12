@@ -14,10 +14,10 @@ end
 end
 
  def take_a_number (katz_deli,name)
-line = "Welcome, "
+
   #index = 1
   katz_deli.each do |name|
-   line<< " #{name}. You are number #{katz_deli.length} in line."
+   katz_deli << "Welcome #{name}. You are number #{katz_deli.length} in line."
     #index +=1
 end
   puts line
