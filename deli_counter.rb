@@ -15,7 +15,7 @@ end
 
  def take_a_number ( katz_deli,name)
   counter = 1
-    katz_deli.push("Welcome, #{name}. You are number #{coutner} in line.")
+    katz_deli.push("Welcome, #{name}. You are number #{counter} in line.")
     coutner +=1
 puts katz_deli
 end
