@@ -17,7 +17,7 @@ end
 line = ""
   index = 1
   #katz_deli.map.with_index do |name, index|
-   line << ("Welcome, #{name}. You are number #{index} in line.")
+   line.push ("Welcome, #{name}. You are number #{index} in line.")
     index +=1
 
 puts line
