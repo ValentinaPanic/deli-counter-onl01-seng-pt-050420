@@ -14,7 +14,9 @@ end
 end
 
  def take_a_number ( katz_deli,name)
-  counter = 1
-  puts  katz_deli << ("Welcome, #{name}. You are number #{counter} in line.")
-    coutner +=1
+line = ""
+  #counter = 1
+  katz_deli.map. with_index do |name, index|
+  puts  katz_deli << ("Welcome, #{name}. You are number #{index + 1} in line.")
+    index +=1
 end
