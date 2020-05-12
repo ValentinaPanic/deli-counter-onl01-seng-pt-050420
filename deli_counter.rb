@@ -20,6 +20,6 @@ line = "Welcome, "
    line<< " #{name}. You are number #{katz_deli.length} in line."
     #index +=1
 end
- line
+  puts line
 
 end
