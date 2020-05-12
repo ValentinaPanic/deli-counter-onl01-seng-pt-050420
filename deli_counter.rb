@@ -21,4 +21,5 @@ line = ""
     index +=1
 end
 puts line
+
 end
