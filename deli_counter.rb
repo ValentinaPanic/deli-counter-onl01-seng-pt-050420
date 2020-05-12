@@ -19,5 +19,4 @@ end
   puts katz_deli << "Welcome #{name}. You are number #{katz_deli.length} in line."
     #index +=1
 end
-
 end
